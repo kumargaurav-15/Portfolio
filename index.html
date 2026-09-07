@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePortfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body class="body">
+
+    <div id="login-screen" class="overlay">
+        <div class="login-box">
+            <h1>Code-Portfolio</h1>
+            <p>Please log in to continue</p>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <div class="login-buttons">
+                <button id="login-btn">Login</button>
+                <button id="skip-btn">Skip for now</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-content" style="display: none;"> 
+        <header class="header">
+        <div class="heade">
+            <h1>Code-Portfolio</h1>
+        </div>
+        <nav>
+            <ul class="nav-bar">
+                <li>Work</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="action">
+            <button id="theme-button">Dark</button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="controls">
+            <input type="text" id="search-box" placeholder="🔍 Search Projects...">
+        </section>
+
+        <div class="project-type">
+            <button id="filter-hard-btn">Show Hard Projects</button>
+            <button id="show-all-btn">Show All</button>
+        </div>
+
+        <div class="project-gallery"></div>
+
+    </main>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>

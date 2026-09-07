@@ -1,0 +1,14 @@
+[
+    {
+        "name": "tic-tac-toe",
+        "tech": "HTML, CSS, JS",
+        "difficulty": "Medium",
+        "link": "https://github.com/kumargaurav-15/tic-tac-toe"
+    },
+    {
+        "name": "Expense-Tracker-main",
+        "tech": "JavaScript, API",
+        "difficulty": "Hard",
+        "link": "https://github.com/kumargaurav-15/Expense-Tracker-main.git"
+    }
+]
